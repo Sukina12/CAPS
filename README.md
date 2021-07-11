@@ -4,9 +4,9 @@
 
 #### Auther : Sukina AbuHammad
 
-[Pull Request]()
+[Pull Request](https://github.com/Sukina12/CAPS/pull/1)
 
-[Actions]()
+[Actions](https://github.com/Sukina12/CAPS/actions)
 
 #### SetUp :
   1. clone the repo
