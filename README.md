@@ -17,6 +17,9 @@
       (nodemon)
 
 #### Tests :
+  * npm test
+
+  
 ![test](test11.PNG)
 
 #### UML :

@@ -5,7 +5,8 @@
   "main": "caps.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "faker": "^5.5.3",
+    "lint": "^0.7.0",
     "uuid": "^8.3.2"
   }
 }
