@@ -15,7 +15,7 @@ class Order {
   }
 }
 
-setTimeout(() => {
+setInterval(() => {
   let fakeOrder = new Order(store);
   events.emit('pickUp', fakeOrder);
 }, 5000);

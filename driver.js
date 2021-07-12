@@ -5,11 +5,11 @@ const events = require('./events');
 events.on('pickUp', pickUp);
 
 function pickUp (payload) {
-  setTimeout (() => {
+  setInterval (() => {
     console.log(`DRIVER : picked up ${payload.orderId}`);
     events.emit('in-transit', payload);
   },1000);
-  setTimeout (() => {
+  setInterval (() => {
     console.log(`DRIVER : delivered up ${payload.orderId}`);
     events.emit('delivered', payload);
   },3000);
